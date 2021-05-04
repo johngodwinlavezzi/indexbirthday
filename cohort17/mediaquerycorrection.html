@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Media Query</title>
+    <style>
+        header,
+        nav,
+        article,
+        section,
+        aside,
+        footer {
+            border: 2px solid green;
+            min-height: 100px;
+            text-align: center;
+           margin-top: 5px;
+        }
+        content{
+            overflow: auto;
+        }
+        .box{
+            float: left;
+            width: 49%;
+            min-height: 200px;
+            margin-right: 10px;
+        }
+        .clear{
+            clear: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="wrapper">
+        <div class="row1"></div>
+        <div class="row2"></div>
+        <div class="row3">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div> -->
+
+    <div class="main">
+        <header>Header</header>
+        <nav>Nav</nav>
+        <div class="content">
+            <div class="content-sub box">
+                <section>Section</section>
+                <article>Article</article>
+            </div>
+            <aside class="box">Aside</aside>
+            <p class="clear"></p>
+        </div>
+        <footer>Footer</footer>
+    </div>
+    
+
+</body>
+
+</html>
